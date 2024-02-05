@@ -14,19 +14,15 @@ execute:
     - 'assignments/*'
     - 'assignments/**/*'
     - 'deep-learning/*'
+    - 'deep-learning/*/*'
     - 'slides/*'
     - 'slides/**/*'
-    - 'ml-fundamentals/classification/introduction-to-classification.md'
-    - 'ml-fundamentals/build-a-web-app-to-use-a-machine-learning-model.md'
-    - 'ml-fundamentals/regression/managing-data.md'
-    - 'ml-fundamentals/regression/loss-function.ipynb'
-    - 'ml-advanced/ensemble-learning/random-forest.md'
+    - 'ml-advanced/ensemble-learning/random-forest.ipynb'
     - 'ml-advanced/clustering/introduction-to-clustering.ipynb'
     - 'ml-advanced/clustering/k-means-clustering.ipynb'
-    - 'data-science/data-visualization/visualization-distributions.md'
+    - 'ml-advanced/unsupervised-learning-pca-and-clustering.ipynb'
     - 'ml-advanced/unsupervised-learning.ipynb'
     - 'data-science/data-science-in-the-cloud/the-azure-ml-sdk-way.ipynb'
-    - 'data-science/data-science-in-the-cloud/the-low-code-no-code-way.ipynb'
     
 parse:
   myst_enable_extensions:
@@ -80,6 +76,7 @@ launch_buttons:
   colab_url: "https://colab.research.google.com"
   thebe: true  # there is issues for now, https://github.com/ocademy-ai/machine-learning/issues/46
 
+
 sphinx:
   config:
     html_favicon: favicon.ico
@@ -92,3 +89,4 @@ sphinx:
     - sphinxcontrib.blockdiag
     - sphinxcontrib.drawio
     - sphinxcontrib.quizdown
+
